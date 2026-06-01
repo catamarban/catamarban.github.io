@@ -2,12 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+title: Portafolio de Prácticas # the website title (if blank, full name will be used instead)
+first_name: Catalina
+middle_name: Marban
+last_name: Ayala
+description: Portafolio de prácticas de la materia Taller de Modelación 1. Estudiante de Matemáticas Aplicadas.
+keywords: academic-website, portfolio-website, matemáticas-aplicadas, modelación, simulación # add your own keywords or leave empty
+# icon: ⚛️  the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://catamarban.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -206,6 +207,10 @@ exclude:
   - readme_preview/
   - UPGRADING.md
   - vendor
+  - _posts/                      # Esto evitará que se compilen las publicaciones del blog
+  - _pages/**/blog.md            # Esto ocultará la página principal del blog
+  - _news/**/announcement_*.md   # Esto quitará los anuncios de ejemplo
+  - assets/jupyter/blog.ipynb    # Elimina recursos relacionados al blog de ejemplo
 keep_files:
   - CNAME
   - .nojekyll
@@ -368,7 +373,7 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br", "fr-ca"]
+languages: ["en-us"]
 default_lang: "en-us"
 exclude_from_localization: ["assets"]
 lang_from_path: true
