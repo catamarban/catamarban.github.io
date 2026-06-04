@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Portafolio de Prácticas # the website title (if blank, full name will be used instead)
+title: Catalina Marban Ayala # the website title (if blank, full name will be used instead)
 first_name: Catalina
 middle_name: Marban
 last_name: Ayala
@@ -15,7 +15,17 @@ baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
+# -----------------------------------------------------------------------------
+# Contacto y Redes Sociales
+# -----------------------------------------------------------------------------
+email: "tu_correo@ciencias.unam.mx" # Cambia por tu correo real
 
+# Íconos desactivados
+scholar_userid: ""
+rss_icon: false
+cv_pdf: ""
+rss_icon: false
+contact_note: ""
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------

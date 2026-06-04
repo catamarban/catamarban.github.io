@@ -7,7 +7,7 @@ subtitle: Estudiante de Matemáticas Aplicadas
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: foto_perfil.png
   image_circular: true 
   more_info: >
     <p>Taller de Modelación</p>
