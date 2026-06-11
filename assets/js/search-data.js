@@ -104,6 +104,11 @@ ninja.data = [{
           description: "Simulación y análisis de comportamiento de Cadenas de Markov",
           section: "Projects",handler: () => {
               window.location.href = "/projects/practica_13/";
+            },},{id: "projects-práctica-14-algoritmo-de-metropolis-hastings",
+          title: 'Práctica 14 - Algoritmo de Metropolis-Hastings',
+          description: "Algoritmo de Metropolis-Hastings para simular variables aleatorias.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/practica_14/";
             },},{id: "projects-práctica-4-modelo-depredador-presa-lotka-volterra",
           title: 'Práctica 4 - Modelo Depredador-Presa (Lotka-Volterra)',
           description: "Simulación en diferencias finitas de la interacción entre especies y análisis de sus puntos de equilibrio.",
