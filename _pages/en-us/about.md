@@ -3,17 +3,14 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: Estudiante de Matemáticas Aplicadas
 
 profile:
   align: right
   image: foto_perfil.png
   image_circular: true 
-  more_info: >
-    <p>Taller de Modelación</p>
-
+  
 selected_papers: false 
-social: true 
+social: false 
 
 announcements:
   enabled: false 
@@ -22,6 +19,7 @@ latest_posts:
   enabled: false 
 ---
 
-Soy Catalina, estudiante de licenciatura en Matemáticas Aplicadas.
+Soy estudiante de Matemáticas Aplicadas en la Facultad de Ciencias de la UNAM. Cuento con experiencia desarrollando simulaciones, optimizando algoritmos y trabajando con bases de datos mediante herramientas como Python y SQL, orientando mis habilidades hacia la resolución de problemas y la toma de decisiones basada en datos cuantitativos. 
 
-Este portafolio recopila las prácticas y proyectos desarrollados para la materia de Taller de Modelación 1.
+
+Este portafolio recopila las prácticas y proyectos desarrollados de forma colavorativa para la materia de Taller de Modelación 1.
